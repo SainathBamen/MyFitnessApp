@@ -1,0 +1,82 @@
+
+
+[
+  {
+    "id": 1,
+    "name": "Grape",
+    "description": "Grape is a fruit rich in antioxidants. In 100 grams, it provides about 69 calories, 18 grams of carbohydrates, 10 mg of Vitamin C, and natural plant compounds that help protect heart health and boost immunity.",
+    "fruitImg": "grapeImage"
+  },
+  {
+    "id": 2,
+    "name": "Kiwi",
+    "description": "Kiwi is a high-energy fruit loaded with Vitamin C. Every 100 grams contains around 61 calories, 14 grams of carbs, 3 grams of fiber, and about 92 mg of Vitamin C. It’s great for skin, digestion, and immunity.",
+    "fruitImg": "kiwiImage"
+  },
+  {
+    "id": 3,
+    "name": "Mango",
+    "description": "Mango, known as the king of fruits, is juicy, sweet, and packed with nutrients. 100 grams of mango contains roughly 60 calories, 15 grams of carbs, 1.6 grams of fiber, and 36 mg of Vitamin C. It’s also rich in Vitamin A, essential for good eyesight.",
+    "fruitImg": "mangoImage"
+  },
+  {
+    "id": 4,
+    "name": "Orange",
+    "description": "Orange is famous for immunity benefits. In 100 grams, you get 47 calories, 11.8 grams of carbs, 2.4 grams of fiber, and 53 mg of Vitamin C. It promotes healthy skin and strengthens immunity.",
+    "fruitImg": "orangeImage"
+  },
+  {
+    "id": 5,
+    "name": "Cherry",
+    "description": "Cherry is a sweet, juicy fruit offering 50 calories, 12 grams of carbs, and 1.6 grams of fiber per 100 grams. Rich in anthocyanins, cherries help manage blood pressure and reduce inflammation.",
+    "fruitImg": "cherryImage"
+  },
+  {
+    "id": 6,
+    "name": "Papaya",
+    "description": "Papaya is excellent for digestion due to its special enzyme papain. 100 grams of papaya provides 43 calories, 10.8 grams of carbs, 1.7 grams of fiber, and 60 mg of Vitamin C. It supports gut health and immunity.",
+    "fruitImg": "papayaImage"
+  },
+  {
+    "id": 7,
+    "name": "Peach",
+    "description": "Peach is a juicy fruit providing 39 calories, 9.5 grams of carbs, and 1.5 grams of fiber per 100 grams. It’s hydrating, rich in antioxidants, and supports skin and digestive health.",
+    "fruitImg": "peachImage"
+  },
+  {
+    "id": 8,
+    "name": "Pear",
+    "description": "Pear is a fiber-rich fruit beneficial for digestion. 100 grams of pear contains 57 calories, 15 grams of carbs, and 3.1 grams of fiber. It keeps the digestive system clean and aids in weight management.",
+    "fruitImg": "pearImage"
+  },
+  {
+    "id": 9,
+    "name": "Pineapple",
+    "description": "Pineapple is a tropical fruit high in bromelain enzyme. In 100 grams, it offers 50 calories, 13 grams of carbs, 1.4 grams of fiber, and 47.8 mg of Vitamin C. It helps in digestion and reduces inflammation.",
+    "fruitImg": "pineappleImage"
+  },
+  {
+    "id": 10,
+    "name": "Plum",
+    "description": "Plum is a juicy, tangy stone fruit containing 46 calories, 11.4 grams of carbs, 1.4 grams of fiber, and 9.5 mg of Vitamin C per 100 grams. It’s good for digestion and boosting metabolism.",
+    "fruitImg": "plumImage"
+  },
+  {
+    "id": 11,
+    "name": "Pomegranate",
+    "description": "Pomegranate is a superfood rich in antioxidants. 100 grams provides 83 calories, 18.7 grams of carbs, 4 grams of fiber, and 10 mg of Vitamin C. It’s known to improve heart health and immunity.",
+    "fruitImg": "pomegranateImage"
+  },
+  {
+    "id": 12,
+    "name": "Strawberry",
+    "description": "Strawberry is a sweet, juicy fruit packed with Vitamin C. In 100 grams, you get 32 calories, 7.7 grams of carbs, 2 grams of fiber, and 58.8 mg of Vitamin C. It’s perfect for skin health and boosting immunity.",
+    "fruitImg": "strawberryImage"
+  },
+  {
+    "id": 13,
+    "name": "Watermelon",
+    "description": "Watermelon is a summer favorite loaded with water and lycopene. 100 grams provides 30 calories, 7.6 grams of carbs, 0.4 grams of fiber, and 8.1 mg of Vitamin C. It keeps you hydrated and supports heart health.",
+    "fruitImg": "watermelonImage"
+  }
+]
