@@ -281,7 +281,7 @@ import SwiftUI
 struct FitTabView: View {
     @State private var selectedTab = 0
     @State private var showPopup = false
-    
+
     var body: some View {
         ZStack {
             LinearGradient(
@@ -290,7 +290,7 @@ struct FitTabView: View {
                 endPoint: .bottom
             )
             .ignoresSafeArea()
-            
+
             TabView(selection: $selectedTab) {
                 CombinedHomeView()
                     .tabItem {
@@ -298,28 +298,28 @@ struct FitTabView: View {
                         Text("Home")
                     }
                     .tag(0)
-                
+
                 CombinedOfferGroupsView()
                     .tabItem {
                         Image(systemName: selectedTab == 1 ? "magnifyingglass.circle.fill" : "magnifyingglass.circle")
                         Text("Chats & Groups")
                     }
                     .tag(1)
-                
+
                 NewView()
                     .tabItem {
                         Image(systemName: selectedTab == 2 ? "person.2.fill" : "person.2")
                         Text("Get a Coach")
                     }
                     .tag(2)
-                
+
                 ExerciseVideoListView()
                     .tabItem {
                         Image(systemName: selectedTab == 3 ? "bell.fill" : "bell")
                         Text("WVideos")
                     }
                     .tag(3)
-                
+
                 ToolsViews()
                     .tabItem {
                         Image(systemName: selectedTab == 4 ? "person.crop.circle.fill" : "person.crop.circle")
@@ -330,9 +330,9 @@ struct FitTabView: View {
             .accentColor(.purple)
             .animation(.easeInOut(duration: 0.25), value: selectedTab)
             .navigationBarBackButtonHidden(true)
-            
-            // Custom Popup Overlay
-            if showPopup {
+
+            // ✅ Show popup only when on tab 0 (CombinedHomeView)
+            if showPopup && selectedTab == 0 {
                 Color.black.opacity(0.4)
                     .ignoresSafeArea()
                     .transition(.opacity)
@@ -341,7 +341,7 @@ struct FitTabView: View {
                             showPopup = false
                         }
                     }
-                
+
                 PopupCard(showPopup: $showPopup)
                     .transition(.scale)
                     .zIndex(1)
@@ -356,21 +356,18 @@ struct FitTabView: View {
             }
         }
     }
-    
+
     private func setupTabBarAppearance() {
         let appearance = UITabBarAppearance()
         appearance.configureWithTransparentBackground()
         appearance.backgroundEffect = UIBlurEffect(style: .systemUltraThinMaterial)
         appearance.backgroundColor = UIColor.clear
-        
+
         UITabBar.appearance().standardAppearance = appearance
         UITabBar.appearance().scrollEdgeAppearance = appearance
     }
 }
 
-
-
 #Preview {
     FitTabView()
-        /*modelContainer(for: [Workout.self, ClientMeasurement.self, PersonalWork.self])*/
 }

@@ -266,6 +266,11 @@
 			path = BackgroundView;
 			sourceTree = "<group>";
 		};
+		4CBE07E72E29DEB500A5B3E9 /* BodyFat MVVM */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "BodyFat MVVM";
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -283,6 +288,7 @@
 		4C1F508A2D967EA600E0719F = {
 			isa = PBXGroup;
 			children = (
+				4CBE07E72E29DEB500A5B3E9 /* BodyFat MVVM */,
 				4C60E9CF2E27B46400AB7A9F /* BackgroundView */,
 				4C60E9CB2E27B42300AB7A9F /* Mock Data */,
 				4C60E9C82E27B41900AB7A9F /* Main Tab */,
@@ -455,6 +461,7 @@
 				4C60E9C82E27B41900AB7A9F /* Main Tab */,
 				4C60E9CB2E27B42300AB7A9F /* Mock Data */,
 				4C60E9CF2E27B46400AB7A9F /* BackgroundView */,
+				4CBE07E72E29DEB500A5B3E9 /* BodyFat MVVM */,
 			);
 			name = "Fitness App In SwiftUI";
 			packageProductDependencies = (
